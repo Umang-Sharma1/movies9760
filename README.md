@@ -1,8 +1,48 @@
-# Getting Started with Create React App
+# Movies Time
+Welcome to Movies Time! This project was created for movie enthusiasts to explore a vast collection of movie-related data from the MovieDB API. Designed with scratch using Framer Motion for awesome animations and CSS for an appealing user interface, this website offers an immersive cinematic experience.
+
+<img src = "https://res.cloudinary.com/dzmffwmxi/image/upload/v1716629643/Screenshot_2024-05-25_145728_gcs818.png"/>
+<img src = "https://res.cloudinary.com/dzmffwmxi/image/upload/v1716629632/Screenshot_2024-05-25_145651_i5m5l4.png"/>
+
+## Features
+
+1. Explore Movies
+Discover a wide selection of movies from different genres, time periods, and cultures.
+
+2. Stay Up-to-Date
+Keep in the loop with the latest movie trends. The "Trending Movies" section highlights the most popular movies people are buzzing about.
+
+3. Easy Movie Search
+Looking for a specific movie? The search tool lets you find movies by their title, keywords, or even by the names of the actors or directors, making it simple to find your favorite films.
+
+4. Filter by Category
+Customize your movie discovery by sorting films into categories like action, drama, comedy, sci-fi, and more. It's a great way to find new favorites within your favorite movie genres.
+
+5. Get Detailed Movie Info
+Get a closer look at your chosen movies. Find comprehensive details including plot summaries, trailers, high-quality images, and a full cast list.
+
+6. Explore Actor and Actress Profiles
+Learn more about your favorite actors and actresses. Dive into their life stories, see the movies they've been a part of, and discover the different characters they've portrayed over time.
+
+## Dependencies
+- [Framer Motion](https://www.framer.com/motion/)
+- [React Router Dom](https://www.npmjs.com/package/react-router-dom)
+- [React Responsive Carousel](https://www.npmjs.com/package/react-responsive-carousel)
+- [Movies API](https://developer.themoviedb.org/docs)
+- [dotenv](https://www.npmjs.com/package/dotenv)
+
+## Getting Started with Create React App <a id="gettingStarted"></a>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+To get started you need to:
+
+1. Clone the project
+2. npm install
+3. Install listed dependencies
+4. Use available scripts, like npm start
+
+## Available Scripts <a id="scripts"></a>
 
 In the project directory, you can run:
 
@@ -33,38 +73,10 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single-build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point, you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However, we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
